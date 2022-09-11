@@ -10,6 +10,14 @@ The exercise manual can be viewed by launching Firefox (http://localhost:8888).
 
 Sample, exercise and solution files are located in `/home/student/course/load/`. They are organized by module.
 
+## Packages
+
+The packages for the course can be installed using
+
+```console
+pip install -r /home/student/load/requirements.txt
+```
+
 ## Account details
 
 The user account details are
