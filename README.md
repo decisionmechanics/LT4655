@@ -20,4 +20,4 @@ pip install -r /home/user/load/requirements.txt
 
 ## Password
 
-The account password is `pw`.
+The account password is `pw`. The JupyterLab password (which should be stored in the browser) is `studentpw`.
