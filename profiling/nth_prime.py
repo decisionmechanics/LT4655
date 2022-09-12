@@ -23,8 +23,7 @@ def get_number_suffix(n):
         return "th"
 
 
-def main():
-    n = int(sys.argv[1])
+def main(n):
     count = n
 
     candidate = 1
@@ -39,4 +38,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    n = int(sys.argv[1]) if len(sys.argv[1:]) else 1_000
+
+    main(n)
