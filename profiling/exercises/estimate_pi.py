@@ -11,7 +11,7 @@ def generate_random_point():
 
 
 def is_inside_circle(x, y):
-    return math.sqrt(x ** 2 + y ** 2) <= 1_000_000
+    return math.sqrt(x**2 + y**2) <= 1_000_000
 
 
 def calculate_pi(number_of_samples, number_of_samples_inside_circle):
