@@ -37,7 +37,7 @@ def main():
 
     pi = estimate_pi(number_of_samples)
 
-    print(f"PI is esimated to be {pi:.4f} (using {number_of_samples} sample(s))")
+    print(f"PI is estimated to be {pi:.4f} (using {number_of_samples} sample(s))")
 
 
 if __name__ == "__main__":
