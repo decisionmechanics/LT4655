@@ -1,0 +1,9 @@
+import numpy as np
+
+primes = np.array([2.0, 3.0, 5.0, 7.0, 11.0])
+
+print(primes.shape)
+
+tic_tac_toe = np.array([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
+
+print(tic_tac_toe.shape)
