@@ -14,5 +14,5 @@ for i in range(10):
     threads.append(thread)
     thread.start()
 
-for i, thread in enumerate(threads):
+for thread in threads:
     thread.join()
